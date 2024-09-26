@@ -1,0 +1,22 @@
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #005cbb;
+  font-weight: bold;
+}
+
+.button {
+  display: flex;
+  max-width: 600px;
+}
+
+.mat-mdc-button-base {
+  margin: 24px;
+}
