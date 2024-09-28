@@ -1,0 +1,28 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #005cbb;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0px;
+  border-top: 1px solid #ccc;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  max-width: 400px; /* ajuste o valor para o tamanho desejado */
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.footer-links {
+  display: flex;
+  // flex-wrap: wrap;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+}
