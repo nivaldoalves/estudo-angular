@@ -1,22 +1,36 @@
-.section {
+// // Variáveis
+$primary-color: #005cbb;
+$secondary-color: #ccc;
+
+// Classe para cabeçalho
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  color: $primary-color;
+  font-size: 16px;
+  border-bottom: 1px solid $secondary-color;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
-  padding: 16px;
 }
 
-.label {
+// Classe para label
+.header-label {
   display: flex;
+  width: 100px;
+  justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: #005cbb;
+  color: $primary-color;
   font-weight: bold;
+  padding-inline: 16px;
 }
 
-.button {
+// Classe para botão
+.header-button {
   display: flex;
   max-width: 600px;
-}
-
-.mat-mdc-button-base {
   margin: 24px;
 }
