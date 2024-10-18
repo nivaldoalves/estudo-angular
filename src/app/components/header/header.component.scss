@@ -1,6 +1,7 @@
 // // Variáveis
 $primary-color: #005cbb;
 $secondary-color: #ccc;
+$gap: 16px;
 
 // Classe para cabeçalho
 .header {
@@ -32,5 +33,6 @@ $secondary-color: #ccc;
 .header-button {
   display: flex;
   max-width: 600px;
-  margin: 24px;
+  margin: 32px;
+  gap: $gap;
 }
